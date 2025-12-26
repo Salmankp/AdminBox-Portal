@@ -1,0 +1,158 @@
+.formBox {
+    box-shadow: 2px -1px 0px rgba(126, 126, 126, 0.1),
+      0px 4px 4px rgba(63, 63, 68, 0.15);
+    background: white;
+  }
+  .formRow {
+    height: 100vh;
+  }
+  .loginSection {
+    width: 100%;
+    height: 100vh;
+    background-color: #ececec !important;
+  }
+  .App {
+    text-align: unset;
+  }
+  .logo {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+  }
+  .logo img {
+    width: 7.5rem;
+    width: 7.6rem;
+    border: 0px;
+    border-width: 25px 0px 0px 0px;
+    border-radius: 50% 50% 0px 0%;
+    border-color: #ffffff;
+    margin-top: -2rem;
+  }
+  .loginFeild {
+    margin-bottom: 0.625rem;
+  }
+  .LoginForm {
+    padding: 0 0.625rem 0 0.625rem;
+  }
+  .signInBtn {
+    text-align: right;
+  }
+  .signInBtn button {
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 600 !important;
+  }
+  .MuiFormControlLabel-label {
+    color: #9ea0a5;
+    font-size: 0.875rem;
+  }
+  .RememberMe,
+  .SignUpBtn {
+    margin-top: 0.5rem;
+  }
+  .SignUpImage {
+    padding: 0 0.625rem 0.625rem 0.625rem;
+  }
+  .SignUpImage img {
+    width: 100%;
+    height: 17.75rem;
+    margin-top: 10%;
+  }
+  .SignUpBtn button {
+    border-radius: 5px;
+    text-transform: unset;
+    background-color: #1665d8;
+  }
+  .SignUpBtn button:hover {
+    background-color: #1665d8;
+    color: white;
+  }
+  .SignUpBtn button:last-child {
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+  .alreadyacc {
+    margin-top: 0;
+    border-top: unset !important;
+  }
+  .alreadyacc a {
+    color: #4a4a4a !important;
+    font-size: 0.9375rem;
+  }
+  .TC a {
+    color: #4056b5;
+    text-decoration: none;
+    transform: translate(-5px, 1px);
+    display: inline-block;
+    font-size: 0.875rem;
+  }
+  .TC .MuiTypography-body1 {
+    font-size: 0.875rem !important;
+    color: #4a4a4a !important;
+  }
+  
+  .signupmain {
+    padding: 0 0.75rem 0.25rem 0.75rem !important;
+  }
+  
+  .signUp__form {
+    width: 75% !important;
+    padding-bottom: 2% !important;
+  }
+  .signUp__form .input-group-append {
+    position: absolute;
+    top: 7px;
+    right: 0;
+  }
+  .signUp__form .input-group-text {
+    background: none;
+    border: none;
+  }
+  
+  .generatePasswordInputIconStyle {
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .submitBtnFullWidth {
+    width: 100%;
+  }
+  
+  /* dark mode styling */
+  .DarkApp .loginSection {
+    background-blend-mode: multiply;
+  }
+  .DarkApp .formBox {
+    background: #303030;
+  }
+  .DarkApp .logo img {
+    border-color: #303030;
+  }
+  .DarkApp .TC .MuiTypography-body1,
+  .DarkApp .TC a,
+  .DarkApp .alreadyacc a,
+  .DarkApp .MuiTypography-colorPrimary {
+    color: #ffffff !important;
+  }
+  
+  .TadnC .PrivateSwitchBase-root-7 {
+    padding-left: 0 !important;
+  }
+  .fields-check {
+    color: red ;
+  }
+  
+  // Responsiveness
+  
+  @media (max-width: 1024px) {
+    .formRow,
+    .loginSection {
+      height: auto !important;
+    }
+    .logo {
+      margin-top: 20%;
+    }
+  }
+  

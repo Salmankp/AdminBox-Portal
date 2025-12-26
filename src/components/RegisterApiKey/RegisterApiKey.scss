@@ -1,0 +1,39 @@
+.loginSection {
+  .container {
+    .form {
+      margin: 2rem auto;
+    }
+    .submit_wrap .submit_button {
+      width: 100% !important;
+      padding: 10px 0px;
+    }
+  }
+}
+
+.mandatory-field-footer {
+  font-size: 17px;
+  color: #f00;
+  text-align: center;
+  padding: 0px;
+  background-color: none;
+}
+
+.subText{
+  font-style: italic;
+  text-align: center;
+  font-size: 17px;
+}
+
+.breakWord {
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .loginSection {
+    .container {
+      .heading {
+        font-size: 16px !important;
+      }
+    }
+  }
+}

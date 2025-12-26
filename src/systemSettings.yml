@@ -1,0 +1,55 @@
+projectName:
+  # project name
+  Theraforge
+settings:
+  mode:
+    # normal or dark
+    normal
+  contrast:
+    # normal or high
+    normal
+  language:
+    # en for english, it for italian, de for german
+    en
+  logo:
+    # logo link or update image named as "nurse.svg" in /public/assets/images/logo.svg
+    # https://ipac.page/images/brand-logo-1.jpg
+  signupCardImage:
+    # image link or update image named as "nurse.svg" in /public/assets/images/nurse.svg
+    # https://dummyimage.com/640x4:3/
+  loginCardImage:
+    # image link or update image named as "login.svg" in /public/assets/images/login.svg
+    # https://dummyimage.com/640x4:3/
+
+  genratePasswordLength:
+    # set the auto generated password length for signup
+    # 12
+
+  darkButtonColor:
+    # button color for dark mode
+    # rgb(64, 156, 255)
+  darkCardColor:
+    # card color for dark mode
+    # rgb(51,51,51)
+  darkFontColor:
+    # font color for dark mode
+    # white
+  darkMainLayoutColor:
+    # layout/background color for dark mode
+    # black
+  normalContrastMainLayoutColor:
+    # layout/background color for normal contrast mode
+    # rgb (236, 236, 236)
+  dangerBorderColor:
+    # danger border color
+    # red
+  cardBorderRadius:
+    # Border radius for cards
+    # 5px
+  filterBrightness:
+    # brightnes in percentage and saturate in points to apply filters on dashboard info cards
+    # brightness(95%) saturate(1)
+
+  socialLogin:
+    # set true/false for enable/disable for social login
+    true

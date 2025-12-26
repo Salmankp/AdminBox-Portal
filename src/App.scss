@@ -1,0 +1,89 @@
+.App {
+    text-align: center;
+  }
+  
+  .Default-label {
+    color: grey !important;
+  }
+  .Danger-label {
+    color: #f44336 !important;
+  }
+  .Default-border {
+    border-color: grey !important;
+  }
+  .Danger-border {
+    border-color: #f44336 !important;
+  }
+  .Default-danger {
+    color: #f44336 !important;
+  }
+  .Default-warning {
+    color: #f9b115 !important;
+  }
+  .Default-success {
+    color: #2eb85c !important;
+  }
+  .Default-info {
+    color: #409cff !important;
+  }
+  .customCursorPointer {
+    cursor: pointer;
+  }
+  .toaster_container {
+    display: flex !important;
+    justify-content: center !important;
+    position: absolute;
+    top: 10% !important;
+    right: 0 !important;
+  }
+  .toast_component {
+    z-index: 999 !important;
+  }
+  .modal-body{
+    font-size: 20px !important;
+  }
+
+  .custom-bold-text {
+    font-weight: bold;
+  }
+
+  .Default-warning {
+    color: #f9b115 !important;
+  }
+  .Default-success {
+    color: #2eb85c !important;
+  }
+  .Default-danger {
+    color: #f44336 !important;
+  }
+
+  .form-check-input {
+    border-color: var(--dark_font_color) !important;
+    background-color: gray !important;
+  }
+  @media (min-width: 768px) {
+    .toaster_container {
+      position: absolute;
+      right: 0 !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .toaster_container {
+      position: absolute;
+      right: 0 !important;
+    }
+  }
+  :root {
+    --normal_contrast_main_layout_color: #ece9ef;
+    --dark_font_color: white;
+    --dark_main_layout_color: #000000;
+    --dark_card_color: #1b1b1b;
+    --dark_button_color: rgb(64, 156, 255);
+    --danger_border_color: red;
+    --border_radius: 5px;
+    --filter_brightness: brightness(90%) saturate(1);
+  }
+  
+  .border_wrapper {
+    border-radius: var(--border_radius) !important;
+  }

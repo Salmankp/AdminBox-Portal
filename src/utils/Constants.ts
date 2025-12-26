@@ -1,0 +1,22 @@
+export default {
+    LOGGED_IN_SUCCESS : `You have logged in successfully!`,
+    NOT_ALLOWED_TO_LOGIN: `you're not allowed to login!`,
+    SUPER_ADMIN: 'superAdmin',
+    SESSION_TIMED_OUT: 'Session timed out',
+    CAPTCHA_VERIFY_FAILED: 'Captcha verification failed', 
+    EXECUTION_FAILED: 'Execute recaptcha not yet available',
+    COMPANY_WITH_EMAIL_ALREADY_EXIST: 'Company with Email already exists',
+    API_KEY_IS_REGISTERED: 'API key is registered',
+    API_KEY_IS_UPDATED: 'API key is updated',
+    GUEST_USER_API_KEY_TYPE: 'sandbox',
+    DEFAULT_KEY_STATUS: 'active',
+    APP_ENV: 'production',
+    API_KEY: "API Key",
+    SANDBOX: "sandbox",
+    PRODUCTION: "production",
+    ACTIVE: "active",
+    INVALID: "invalid",
+    EXPIRED: "expired",
+    ARE_YOU_SURE_TO_UPDATE: "Are you sure you want to update?",
+    CLIENT_ADMIN_TYPE: 'clientAdmin'
+};

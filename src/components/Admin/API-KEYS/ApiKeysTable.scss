@@ -1,0 +1,146 @@
+// filter btn
+.wrapper_tasktable {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  // max-width: 1250px !important;
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+}
+.search_wrapper {
+  display: flex !important;
+  justify-content: space-between !important;
+  max-width: 520px !important;
+  width: 100% !important;
+}
+.fliter_button_style {
+  background-color: white !important;
+  padding: 0.5rem 1rem !important;
+  color: rgb(158, 160, 165) !important;
+  border: none !important;
+  line-height: 28px !important;
+  box-shadow: 0px 3px 1px -2px, 0px 2px 2px 0px, 0px 1px 5px 0px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.filter_icon {
+  color: rgb(158, 160, 165) !important;
+  font-size: 20px !important;
+}
+.btn-content {
+  color: grey;
+  margin-left: 10px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.filter_form_wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 1 !important;
+}
+.filter_form {
+  width: 100% !important;
+  background-color: #ececec !important;
+  padding: 0.75rem 1rem !important;
+}
+.filter_form:focus {
+  border: orange !important;
+}
+.search-icon {
+  transform: translateX(-160%) !important;
+  color: gray !important;
+  font-weight: 400 !important;
+  padding-right: 0.5rem !important;
+}
+.add_btn_wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.add_button_style {
+  background-color: rgb(0, 64, 221) !important;
+  padding: 0.45rem 1rem !important;
+}
+.addpatient_button {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.temp_two {
+  width: 110px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.add_icon {
+  color: whitesmoke !important;
+  font-size: 15px !important;
+}
+.add_btn_content {
+  color: white !important;
+  font-size: 15px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.input {
+  color: white !important;
+  width: 100%;
+}
+.input input::placeholder {
+  opacity: 1;
+}
+.dashboard-table {
+  width: 100% !important;
+  overflow: auto;
+}
+.custom-spacing {
+  margin-bottom: 2% !important;
+}
+// Responsiveness
+@media screen and (max-width: 950px) {
+  .dashboard-table-area {
+    width: 130% !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dashboard-table-area {
+    width: 160% !important;
+  }
+  .MuiTableCell-sizeSmall {
+    padding: 0.375rem 0.875rem 0.375rem 0.625rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dashboard-table-area {
+    width: 240% !important;
+  }
+  .MuiTableCell-sizeSmall {
+    padding: 0.375rem !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .dashboard-table-area {
+    width: 290% !important;
+  }
+  .MuiTableCell-sizeSmall {
+    padding: 0.25rem !important;
+  }
+}
+// filter input
+@media screen and (max-width: 700px) {
+  .temp {
+    transform: translateX(0%);
+  }
+  .search-icon {
+    transform: translateX(-135%) !important;
+  }
+  .search_wrapper .filter_button {
+    display: none !important;
+  }
+  .temp .Filter_form::placeholder {
+    visibility: hidden !important;
+  }
+  .temp .Filter_form.Filter_form :-webkit-moz-placeholder {
+    visibility: hidden !important;
+  }
+}

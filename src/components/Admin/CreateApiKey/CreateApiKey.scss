@@ -1,0 +1,98 @@
+
+.toast_component {
+    z-index: 999 !important;
+  }
+
+  .form-select {
+    height: calc(2.8rem + 2px) !important
+  }
+  .add_btn {
+    top: 0 !important;
+    right: 0 !important;
+  }
+  .create-task-row :nth-child(3) {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .create-task-row .buttonwrap {
+    margin-top: 8% !important;
+    text-align: center !important;
+  }
+  .custom-date-picker input {
+    padding: 0.33rem !important;
+    width: 150px;
+  }
+  .add-schedule {
+    margin-left: 1% !important;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+  }
+
+  .btn-border  {
+    border-color: black !important;
+  }
+  
+  .row .formSelect {
+    border-color: var(--dark_main_layout_color);
+  }
+  // Filter Responsiveness
+  
+  @media (max-width: 576px) {
+    .temp_two {
+      width: 20px !important;
+      padding: 0.35rem 0 !important;
+      .add_btn_content {
+        display: none !important;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    .filter_form_wrapper {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .create-task-row :nth-child(3) {
+      margin-left: 3rem !important;
+      margin-right: 0rem !important;
+    }
+    .create-task-row .buttonwrap {
+      margin: auto !important;
+    }
+    .create-task-row .colmain {
+      margin-left: 0rem !important;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .custom-date-picker input {
+      width: 190px !important;
+    }
+    .create-task-row .buttonwrap {
+      margin-top: 6.5% !important;
+      padding-left: 0px !important;
+    }
+    .create-task-row .colmain {
+      margin-left: 0.5rem;
+    }
+  }
+  
+  .dobcol {
+    .custom-date-picker input {
+      width: 100% !important;
+      height: 48px;
+      padding-top: 1.5rem !important;
+      padding-left: 0.75rem !important;
+    }
+    .form-floating > label {
+      padding: 0.25rem 0.75rem;
+      margin-bottom: 0px;
+      font-size: 12px;
+    }
+  }
+
+  .customFontSize {
+    font-size: 16px !important;
+  }
